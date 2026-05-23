@@ -1,0 +1,119 @@
+<section class="dashboard">
+  <header>
+    <div>
+      <h1>Dashboard</h1>
+      <p>TeamFlow overview for projects, tasks, and collaboration.</p>
+    </div>
+  </header>
+
+  <div *ngIf="loading" class="dashboard-skeleton" aria-label="Loading dashboard">
+    <span *ngFor="let item of [1,2,3,4,5,6]"></span>
+    <span class="wide"></span>
+    <span class="wide"></span>
+  </div>
+
+  <div *ngIf="error" class="error">{{ error }}</div>
+
+  <ng-container *ngIf="summary as data">
+    <div class="stats-grid">
+      <mat-card>
+        <span class="label">Projects</span>
+        <strong>{{ data.totalProjects }}</strong>
+      </mat-card>
+
+      <mat-card>
+        <span class="label">Tasks</span>
+        <strong>{{ data.totalTasks }}</strong>
+      </mat-card>
+
+      <mat-card>
+        <span class="label">In Progress</span>
+        <strong>{{ data.statusCounts.inProgress }}</strong>
+      </mat-card>
+
+      <mat-card>
+        <span class="label">Done</span>
+        <strong>{{ data.statusCounts.done }}</strong>
+      </mat-card>
+
+      <mat-card>
+        <span class="label">Bugs</span>
+        <strong>{{ data.typeCounts.bug }}</strong>
+      </mat-card>
+
+      <mat-card>
+        <span class="label">Unassigned</span>
+        <strong>{{ data.assignmentCounts.unassigned }}</strong>
+      </mat-card>
+    </div>
+
+    <div class="analytics-grid">
+      <mat-card class="chart-card">
+        <h2>Tasks By Status</h2>
+        <div class="pie" [style.background]="pieStyle(data)"></div>
+        <div class="legend">
+          <span><i class="todo"></i>To Do {{ data.statusCounts.todo }}</span>
+          <span><i class="progress"></i>In Progress {{ data.statusCounts.inProgress }}</span>
+          <span><i class="done"></i>Done {{ data.statusCounts.done }}</span>
+        </div>
+      </mat-card>
+
+      <mat-card class="chart-card">
+        <h2>Tasks By Type</h2>
+        <div class="pie" [style.background]="typePieStyle(data)"></div>
+        <div class="legend">
+          <span><i class="type-task"></i>Task {{ data.typeCounts.task }}</span>
+          <span><i class="type-bug"></i>Bug {{ data.typeCounts.bug }}</span>
+          <span><i class="type-feature"></i>Feature {{ data.typeCounts.feature }}</span>
+        </div>
+      </mat-card>
+
+      <mat-card class="chart-card">
+        <h2>Status Distribution</h2>
+        <div class="bars">
+          <div>
+            <span [style.height.%]="percent(data.statusCounts.todo, totalStatusCount(data))"></span>
+            <label>To Do</label>
+          </div>
+          <div>
+            <span class="progress" [style.height.%]="percent(data.statusCounts.inProgress, totalStatusCount(data))"></span>
+            <label>In Progress</label>
+          </div>
+          <div>
+            <span class="done" [style.height.%]="percent(data.statusCounts.done, totalStatusCount(data))"></span>
+            <label>Done</label>
+          </div>
+        </div>
+      </mat-card>
+
+      <mat-card class="chart-card">
+        <h2>Assigned vs Unassigned</h2>
+        <div class="pie" [style.background]="assignmentPieStyle(data)"></div>
+        <div class="legend">
+          <span><i class="assigned"></i>Assigned {{ data.assignmentCounts.assigned }}</span>
+          <span><i class="unassigned"></i>Unassigned {{ data.assignmentCounts.unassigned }}</span>
+        </div>
+      </mat-card>
+    </div>
+
+    <div class="activity-grid">
+      <mat-card>
+        <h2>Recent Tasks</h2>
+        <div *ngIf="data.recentTasks.length === 0" class="empty">No recent tasks</div>
+        <article *ngFor="let task of data.recentTasks" class="activity-item">
+          <strong>{{ task.title }}</strong>
+          <span>{{ task.projectName }} · {{ task.status }} · {{ task.priority }}</span>
+        </article>
+      </mat-card>
+
+      <mat-card>
+        <h2>Recent Comments</h2>
+        <div *ngIf="data.recentComments.length === 0" class="empty">No recent comments</div>
+        <article *ngFor="let comment of data.recentComments" class="activity-item">
+          <strong>{{ comment.author }}</strong>
+          <span>{{ comment.content }}</span>
+        </article>
+      </mat-card>
+    </div>
+  </ng-container>
+</section>

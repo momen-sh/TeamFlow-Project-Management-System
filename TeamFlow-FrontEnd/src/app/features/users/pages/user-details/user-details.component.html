@@ -1,0 +1,32 @@
+<div class="page">
+
+  <button class="back" (click)="goBack()">
+    ← Back
+  </button>
+
+  <div *ngIf="loading">Loading user...</div>
+
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+
+  <div *ngIf="user" class="card">
+
+    <h2>{{ user.firstName }} {{ user.lastName }}</h2>
+
+    <p><strong>Email:</strong> {{ user.email }}</p>
+
+    <p>
+      <strong>Role:</strong>
+      <span class="role" [ngClass]="user.role">
+        {{ user.role }}
+      </span>
+    </p>
+
+    <div class="actions">
+      <button (click)="editUser()">Edit</button>
+    </div>
+
+  </div>
+
+</div>

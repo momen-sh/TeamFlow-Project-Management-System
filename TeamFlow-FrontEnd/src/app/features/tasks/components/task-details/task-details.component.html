@@ -1,0 +1,200 @@
+<section class="details-page">
+  <button type="button" class="back" (click)="back()">
+    <mat-icon>arrow_back</mat-icon>
+    Back
+  </button>
+
+  <div *ngIf="loading" class="state">Loading task...</div>
+  <div *ngIf="error" class="error">{{ error }}</div>
+
+  <ng-container *ngIf="task">
+    <header class="task-hero">
+      <div>
+        <div class="eyebrow">{{ projectName }}</div>
+        <h1>{{ task.title }}</h1>
+        <div class="meta">
+          <span class="type"><mat-icon>{{ typeIcon(task.type) }}</mat-icon>{{ typeLabel(task.type) }}</span>
+          <span>{{ statusLabel(task.status) }}</span>
+          <span>{{ priorityLabel(task.priority) }}</span>
+          <span>{{ assigneeName || 'Unassigned' }}</span>
+          <span *ngIf="task.sentToQaAt" class="qa-ready">Sent to QA</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button *ngIf="canSelfAssign()" type="button" (click)="selfAssign()">Assign to me</button>
+        <button *ngIf="canEditTask()" type="button" (click)="editTask()">Edit</button>
+        <button *ngIf="canUnassign()" type="button" (click)="unassign()">Unassign</button>
+        <button *ngIf="task.permissions?.canSendToQa" type="button" class="primary" (click)="openQaModal()">
+          Send to QA
+        </button>
+          <div *ngIf="permissionService.canAssign(task)" style="display:flex;gap:8px;align-items:center;">
+            <select (change)="onAssigneeChange($event)" [value]="selectedAssigneeId">
+              <option value="">Assign user...</option>
+              <option *ngFor="let u of assignableUsers" [value]="u.id">{{ fullName(u) }} ({{ u.role }})</option>
+            </select>
+            <button type="button" (click)="assignToSelectedUser()" [disabled]="!selectedAssigneeId">Assign</button>
+          </div>
+      </div>
+    </header>
+
+    <div class="modal-backdrop" *ngIf="qaModalOpen" (click)="closeQaModal()">
+      <section class="qa-modal" (click)="$event.stopPropagation()">
+        <header>
+          <div>
+            <h2>Send to QA</h2>
+            <p>Select one or more QA users for this task.</p>
+          </div>
+          <button type="button" class="icon-btn" (click)="closeQaModal()"><mat-icon>close</mat-icon></button>
+        </header>
+
+        <div class="qa-user-list">
+          <button type="button" class="qa-user" *ngFor="let user of qaUsers" [class.selected]="selectedQaUserIds.includes(user.id)" (click)="toggleQaUser(user.id)">
+            <span class="avatar small">{{ fullName(user).charAt(0) }}</span>
+            <span>
+              <strong>{{ fullName(user) }}</strong>
+              <small>{{ user.email }}</small>
+            </span>
+            <mat-icon>{{ selectedQaUserIds.includes(user.id) ? 'check_circle' : 'radio_button_unchecked' }}</mat-icon>
+          </button>
+        </div>
+
+        <footer>
+          <button type="button" (click)="closeQaModal()">Cancel</button>
+          <button type="button" class="primary" (click)="sendToQa()" [disabled]="sendingToQa || selectedQaUserIds.length === 0">
+            {{ sendingToQa ? 'Sending...' : 'Confirm Assignment' }}
+          </button>
+        </footer>
+      </section>
+    </div>
+
+    <main class="content-grid">
+      <section class="panel task-info">
+        <h2>Task Info</h2>
+        <p class="description">{{ task.description || 'No description provided.' }}</p>
+      </section>
+
+      <section class="panel" id="qa-test-cases">
+        <h2>Work Records</h2>
+
+        <form *ngIf="task.permissions?.canAddWorkRecord" class="stacked-form" [formGroup]="workRecordForm" (ngSubmit)="addWorkRecord()">
+          <input formControlName="title" placeholder="What was done" />
+          <div class="form-row">
+            <input type="number" min="0" formControlName="timeSpentHours" placeholder="Hours" />
+            <input type="number" min="0" max="59" formControlName="timeSpentMinutes" placeholder="Minutes" />
+            <input formControlName="branchNumber" placeholder="Branch" />
+          </div>
+          <textarea formControlName="description" placeholder="Optional details"></textarea>
+          <button type="submit" [disabled]="workRecordForm.invalid || savingWorkRecord">
+            {{ savingWorkRecord ? 'Adding...' : 'Add Work Record' }}
+          </button>
+        </form>
+
+        <div *ngIf="workRecords.length === 0" class="empty">No work records yet</div>
+        <div class="timeline">
+          <article *ngFor="let record of workRecords" class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <h3>{{ record.title }}</h3>
+              <div class="item-meta">
+                <span>{{ formatDuration(record.timeSpentMinutes) }}</span>
+                <span>{{ record.branchNumber }}</span>
+                <span>{{ record.createdAt | date:'short' }}</span>
+              </div>
+              <p *ngIf="record.description">{{ record.description }}</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>QA Test Cases</h2>
+        <div *ngIf="!task.sentToQaAt" class="empty">Send this task to QA before test cases are added.</div>
+
+        <form *ngIf="task.permissions?.canAddQaTestCase" class="stacked-form" [formGroup]="qaTestCaseForm" (ngSubmit)="addQaTestCase()">
+          <input formControlName="title" placeholder="Test case title" />
+          <textarea formControlName="steps" placeholder="Steps"></textarea>
+          <textarea formControlName="expectedResult" placeholder="Expected result"></textarea>
+          <textarea formControlName="actualResult" placeholder="Actual result"></textarea>
+          <select formControlName="status">
+            <option *ngFor="let status of qaStatuses" [ngValue]="status">{{ status }}</option>
+          </select>
+          <button type="submit" [disabled]="qaTestCaseForm.invalid || savingQaTestCase">
+            {{ savingQaTestCase ? 'Adding...' : 'Add Test Case' }}
+          </button>
+        </form>
+
+        <div class="qa-list">
+          <article *ngFor="let testCase of qaTestCases" class="qa-card">
+            <div>
+              <h3>{{ testCase.title }}</h3>
+              <span class="status" [class]="statusClass(testCase.status)">{{ testCase.status }}</span>
+            </div>
+            <p><strong>Steps</strong>{{ testCase.steps }}</p>
+            <p><strong>Expected</strong>{{ testCase.expectedResult }}</p>
+            <p *ngIf="testCase.actualResult"><strong>Actual</strong>{{ testCase.actualResult }}</p>
+            <div class="status-actions" *ngIf="task.permissions?.canAddQaTestCase">
+              <button type="button" *ngFor="let status of qaStatuses" (click)="updateQaStatus(testCase, status)" [class.active]="testCase.status === status">
+                {{ status }}
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel comments-panel">
+        <h2>Comments</h2>
+
+        <div class="comments-list">
+          <article *ngFor="let comment of comments" class="comment">
+            <div class="avatar">{{ (comment.userName || comment.userEmail || 'T').charAt(0) }}</div>
+            <div>
+              <div class="comment-head">
+                <strong>{{ comment.userName || comment.userEmail || 'Team member' }}</strong>
+                <span>{{ comment.createdAt | date:'short' }}</span>
+              </div>
+              <p [innerHTML]="highlightComment(comment)"></p>
+              <div *ngIf="mentionedUsers(comment).length" class="mentions">
+                <span *ngFor="let user of mentionedUsers(comment)">@{{ fullName(user) }}</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <form *ngIf="task.permissions?.canComment" class="comment-form" [formGroup]="commentForm" (ngSubmit)="addComment()">
+          <textarea formControlName="content" placeholder="Add a comment and type @ to mention"></textarea>
+          <div class="mention-menu" *ngIf="mentionSuggestions().length">
+            <button type="button" *ngFor="let user of mentionSuggestions()" (click)="addMention(user)">
+              @{{ fullName(user) }} <span>{{ user.email }}</span>
+            </button>
+          </div>
+          <div class="mentions selected" *ngIf="mentionedUserIds.length">
+            <span *ngFor="let id of mentionedUserIds">@{{ userNameById(id) }}</span>
+          </div>
+          <button type="submit" [disabled]="commentForm.invalid || savingComment">
+            {{ savingComment ? 'Adding...' : 'Add Comment' }}
+          </button>
+        </form>
+      </section>
+
+      <section class="panel attachments-panel">
+        <h2>Attachments</h2>
+        <div *ngIf="attachmentError" class="error">{{ attachmentError }}</div>
+        <div *ngIf="!attachmentError && attachments.length === 0" class="empty">No attachments</div>
+
+        <div class="attachment-grid" *ngIf="attachments.length > 0">
+          <article *ngFor="let attachment of attachments" class="attachment">
+            <img *ngIf="isImage(attachment)" [src]="attachmentUrl(attachment)" [alt]="attachment.fileName" />
+            <video *ngIf="isVideo(attachment)" [src]="attachmentUrl(attachment)" controls></video>
+            <mat-icon *ngIf="!isImage(attachment) && !isVideo(attachment)">description</mat-icon>
+            <div>
+              <strong>{{ attachment.fileName }}</strong>
+              <span>{{ fileSize(attachmentSize(attachment)) }}</span>
+            </div>
+            <a [href]="attachmentUrl(attachment)" [download]="attachment.fileName">Download</a>
+          </article>
+        </div>
+      </section>
+    </main>
+  </ng-container>
+</section>

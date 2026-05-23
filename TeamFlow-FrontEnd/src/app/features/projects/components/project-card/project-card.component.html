@@ -1,0 +1,17 @@
+<div class="card">
+
+  <h3>{{ project.name }}</h3>
+
+  <p class="desc">
+    {{ project.description || 'No description provided' }}
+  </p>
+
+  <div class="actions">
+
+    <button (click)="onView()">View</button>
+    <button *ngIf="canManage" (click)="onEdit()">Edit</button>
+    <button *ngIf="canManage" class="danger" (click)="onDelete()">Delete</button>
+
+  </div>
+
+</div>

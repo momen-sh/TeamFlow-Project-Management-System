@@ -1,0 +1,29 @@
+<article class="task-card" (click)="openDetails()" tabindex="0">
+  <div class="task-card__header">
+    <h3>{{ task.title }}</h3>
+    <div class="badges">
+      <span class="type" [ngClass]="typeClass(task.type)">
+        <mat-icon>{{ typeIcon(task.type) }}</mat-icon>
+        {{ typeLabel(task.type) }}
+      </span>
+      <span class="priority" [ngClass]="priorityClass(task.priority)">
+        {{ priorityLabel(task.priority) }}
+      </span>
+    </div>
+  </div>
+
+  <p *ngIf="task.description" class="description">
+    {{ task.description }}
+  </p>
+
+  <div class="meta">
+    <span>{{ projectName }}</span>
+    <span>{{ assigneeName || 'Unassigned' }}</span>
+  </div>
+
+  <div class="actions" *ngIf="canManage || canSelfAssign || canDelete">
+    <button *ngIf="canSelfAssign" type="button" (click)="assignToMe($event)">Assign to me</button>
+    <button *ngIf="canManage" type="button" (click)="editTask($event)">Edit</button>
+    <button *ngIf="canDelete" type="button" class="danger" (click)="deleteTask($event)">Delete</button>
+  </div>
+</article>

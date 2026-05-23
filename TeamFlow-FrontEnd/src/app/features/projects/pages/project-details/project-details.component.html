@@ -1,0 +1,87 @@
+<div class="page">
+
+  <button class="back" (click)="goBack()">
+    ← Back
+  </button>
+
+  <div *ngIf="loading">Loading...</div>
+
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+
+  <div *ngIf="project" class="card">
+
+    <h2>{{ project.name }}</h2>
+
+    <p class="desc">
+      {{ project.description || 'No description available' }}
+    </p>
+
+    <div class="info" *ngIf="project.ownerName">
+      <p><strong>Owner:</strong> {{ project.ownerName }}</p>
+    </div>
+
+    <div class="actions" *ngIf="canManageProjects()">
+      <button class="btn btn-outline-warning" (click)="editProject()">Edit</button>
+    </div>
+
+  </div>
+
+  <section *ngIf="project" class="card members-card">
+    <header>
+      <h3>Project Members</h3>
+    </header>
+
+    <div class="member-list">
+      <table class="members-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th *ngIf="canManageProjects()">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let member of project.members">
+            <td>{{ member.fullName || memberName(member.userId) }}</td>
+            <td>{{ member.email || '—' }}</td>
+            <td>{{ member.role || 'Member' }}</td>
+            <td *ngIf="canManageProjects()">
+              <button class="btn btn-outline-danger" (click)="confirmRemoveMember(member.userId)">Remove</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div *ngIf="(project.members?.length ?? 0) === 0" class="empty">No assigned members yet</div>
+    </div>
+
+    <form *ngIf="canManageProjects()" [formGroup]="assignForm" (ngSubmit)="assignMember()" class="assign-form">
+      <mat-form-field appearance="outline">
+        <mat-label>User</mat-label>
+        <input
+          matInput
+          type="text"
+          [formControl]="memberSearch"
+          [matAutocomplete]="memberAutocomplete"
+          placeholder="Search by name or email"
+        />
+        <mat-autocomplete #memberAutocomplete="matAutocomplete">
+          <mat-option
+            *ngFor="let user of filteredUsers$ | async"
+            [value]="userLabel(user)"
+            (onSelectionChange)="selectUser(user, $event)">
+            {{ userLabel(user) }}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+
+      <button class="btn btn-outline-success" type="submit" [disabled]="assigning || assignForm.invalid">
+        {{ assigning ? 'Assigning...' : 'Assign User' }}
+      </button>
+    </form>
+  </section>
+
+</div>

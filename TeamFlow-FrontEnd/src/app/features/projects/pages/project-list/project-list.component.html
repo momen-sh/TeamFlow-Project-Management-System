@@ -1,0 +1,38 @@
+<div class="page">
+
+  <div class="header">
+
+    <h2>Projects</h2>
+
+    <button *ngIf="canManageProjects()" (click)="createProject()">
+      + New Project
+    </button>
+
+  </div>
+
+  <div *ngIf="loading" class="loading">
+    Loading projects...
+  </div>
+
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+
+  <div *ngIf="!loading && projects.length === 0" class="empty">
+    No projects found
+  </div>
+
+  <div class="grid">
+
+    <app-project-card
+      *ngFor="let project of projects"
+      [project]="project"
+      [canManage]="canManageProjects()"
+      (view)="openProject($event)"
+      (edit)="editProject($event)"
+      (delete)="deleteProject($event)">
+    </app-project-card>
+
+  </div>
+
+</div>

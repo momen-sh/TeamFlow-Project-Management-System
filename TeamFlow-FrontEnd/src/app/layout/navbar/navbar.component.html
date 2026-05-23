@@ -1,0 +1,31 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <div class="navbar-brand">
+      <a routerLink="/" class="brand-link">TeamFlow</a>
+    </div>
+    
+    <div class="navbar-menu">
+      <button type="button" class="notification-btn" (click)="toggleNotifications()">
+        <mat-icon>notifications</mat-icon>
+        <span class="badge" *ngIf="unreadCount">{{ unreadLabel() }}</span>
+      </button>
+
+      <div class="notification-panel" *ngIf="panelOpen">
+        <div class="panel-header">
+          <strong>Notifications</strong>
+        </div>
+        <button type="button" class="notification-item" *ngFor="let notification of notifications" (click)="navigateToNotification(notification)">
+          <span class="title">{{ notification.title }}</span>
+          <span class="message">{{ notification.message }}</span>
+        </button>
+        <div class="empty" *ngIf="notifications.length === 0">No notifications</div>
+      </div>
+
+      <div class="navbar-user">
+        <span class="user-email">{{ userEmail }}</span>
+        <span class="user-role" *ngIf="userRole">{{ userRole }}</span>
+      </div>
+      <button class="logout-btn" (click)="logout()">Logout</button>
+    </div>
+  </div>
+</nav>

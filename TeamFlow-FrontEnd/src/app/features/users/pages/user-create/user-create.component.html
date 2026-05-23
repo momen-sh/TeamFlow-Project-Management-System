@@ -1,0 +1,16 @@
+<div class="page">
+
+  <app-user-form
+    (save)="createUser($event)"
+    (cancel)="cancel()">
+  </app-user-form>
+
+  <p class="error" *ngIf="error">
+    {{ error }}
+  </p>
+
+  <p *ngIf="loading">
+    Creating user...
+  </p>
+
+</div>

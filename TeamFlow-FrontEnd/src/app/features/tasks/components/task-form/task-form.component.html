@@ -1,0 +1,135 @@
+<form class="task-form" [formGroup]="form" (ngSubmit)="submit()">
+  <label>
+    Title
+    <input formControlName="title" type="text" placeholder="Task title" />
+    <span *ngIf="form.controls.title.touched && form.controls.title.invalid">Title is required</span>
+  </label>
+
+  <label>
+    Description
+    <textarea formControlName="description" rows="5" placeholder="Task details"></textarea>
+  </label>
+
+  <div class="form-grid">
+    <label>
+      Status
+      <select formControlName="status">
+        <option *ngFor="let status of statuses" [ngValue]="status.value">
+          {{ status.label }}
+        </option>
+      </select>
+    </label>
+
+    <label>
+      Priority
+      <select formControlName="priority">
+        <option *ngFor="let priority of priorities" [ngValue]="priority.value">
+          {{ priority.label }}
+        </option>
+      </select>
+    </label>
+
+    <label>
+      Type
+      <select formControlName="type">
+        <option *ngFor="let type of types" [ngValue]="type.value">
+          {{ type.label }}
+        </option>
+      </select>
+    </label>
+  </div>
+
+  <div class="type-preview" aria-label="Selected task type">
+    <span *ngFor="let type of types" [class.active]="form.controls.type.value === type.value">
+      <mat-icon>{{ type.icon }}</mat-icon>
+      {{ type.label }}
+    </span>
+  </div>
+
+  <div class="form-grid">
+    <mat-form-field appearance="outline">
+      <mat-label>Project</mat-label>
+      <input
+        matInput
+        type="text"
+        [formControl]="projectSearch"
+        [matAutocomplete]="projectAutocomplete"
+        placeholder="Search projects"
+      />
+      <mat-autocomplete #projectAutocomplete="matAutocomplete">
+        <mat-option
+          *ngFor="let project of filteredProjects$ | async"
+          [value]="project.name"
+          (onSelectionChange)="selectProject(project, $event)">
+          {{ project.name }}
+        </mat-option>
+      </mat-autocomplete>
+      <mat-error *ngIf="form.controls.projectId.touched && form.controls.projectId.invalid">
+        Project is required
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Assign user</mat-label>
+      <input
+        matInput
+        type="text"
+        [formControl]="userSearch"
+        [matAutocomplete]="userAutocomplete"
+        placeholder="Search users"
+      />
+      <button matSuffix mat-button type="button" *ngIf="userSearch.value" (click)="clearUser()">Clear</button>
+      <mat-autocomplete #userAutocomplete="matAutocomplete">
+        <mat-option
+          *ngFor="let user of filteredUsers$ | async"
+          [value]="fullName(user)"
+          (onSelectionChange)="selectUser(user, $event)">
+          <span class="user-option">{{ fullName(user) }} · {{ user.email }}</span>
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </div>
+
+  <section class="attachments" (dragover)="onDragOver($event)" (drop)="onDropFiles($event)">
+    <div class="attachments__header">
+      <div>
+        <strong>Attachments</strong>
+        <small>Images and videos show a local preview before upload.</small>
+      </div>
+      <label class="upload-button">
+        <mat-icon>attach_file</mat-icon>
+        Add files
+        <input type="file" multiple accept="image/*,video/*,.pdf,.doc,.docx,.xls,.xlsx,.txt" (change)="onFilesSelected($event)" />
+      </label>
+    </div>
+
+    <div class="drop-zone">
+      <mat-icon>cloud_upload</mat-icon>
+      <span>Drop images, videos, or files here</span>
+    </div>
+
+    <div class="preview-grid" *ngIf="attachmentPreviews.length > 0">
+      <article *ngFor="let preview of attachmentPreviews" class="preview">
+        <img *ngIf="preview.kind === 'image'" [src]="preview.url" [alt]="preview.file.name" />
+        <video *ngIf="preview.kind === 'video'" [src]="preview.url" controls muted></video>
+        <mat-icon *ngIf="preview.kind === 'file'">description</mat-icon>
+        <div>
+          <span>{{ preview.file.name }}</span>
+          <small>{{ fileSize(preview.file.size) }}</small>
+        </div>
+        <button mat-icon-button type="button" (click)="removeFile(preview.file)" aria-label="Remove file">
+          <mat-icon>close</mat-icon>
+        </button>
+      </article>
+    </div>
+  </section>
+
+  <div class="actions">
+    <button type="submit" class="primary" [disabled]="saving || form.invalid">
+      {{ saving ? 'Saving...' : 'Save Task' }}
+    </button>
+    <button type="button" (click)="onCancel()" [disabled]="saving">
+      Cancel
+    </button>
+  </div>
+</form>

@@ -1,0 +1,37 @@
+<h2>Task Details</h2>
+<div *ngIf="loading">Loading task...</div>
+<div *ngIf="error" class="error">{{ error }}</div>
+<div *ngIf="task">
+  <h3>{{ task.title }}</h3>
+  <p>{{ task.description }}</p>
+  <p>Status: {{ task.status }} | Priority: {{ task.priority }}</p>
+
+  <p>
+    Assignee: <span>{{ task.assignedUserName || (task.assignedUserId ? 'Assigned user' : 'Unassigned') }}</span>
+    <button *ngIf="canUnassign()" type="button" (click)="unassign()">Unassign</button>
+    <span *ngIf="permissionService.canAssign(task)" style="display:inline-flex;gap:8px;align-items:center;margin-left:8px">
+      <select (change)="onAssigneeChange($event)" [value]="selectedAssigneeId">
+        <option value="">Assign user...</option>
+        <option *ngFor="let u of assignableUsers" [value]="u.id">{{ u.firstName }} {{ u.lastName }} ({{ u.role }})</option>
+      </select>
+      <button type="button" (click)="assignToSelectedUser()" [disabled]="!selectedAssigneeId">Assign</button>
+    </span>
+  </p>
+
+  <button type="button" (click)="back()">Back</button>
+
+  <section class="comments">
+    <h3>Comments</h3>
+
+    <div *ngIf="commentsLoading">Loading comments...</div>
+    <div *ngIf="commentError" class="error">{{ commentError }}</div>
+    <div *ngIf="!commentsLoading && comments.length === 0">No comments yet</div>
+
+      <article *ngFor="let comment of comments" class="comment">
+      <p>{{ comment.content }}</p>
+      <small>{{ comment.userName || comment.userEmail || 'Team member' }} · {{ comment.createdAt }}</small>
+    </article>
+
+    <!-- Comment form removed to avoid reactive form binding errors in this duplicate page component -->
+  </section>
+</div>

@@ -1,0 +1,40 @@
+<div class="form-container">
+
+  <h2>
+    {{ user ? 'Edit User' : 'Create User' }}
+  </h2>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+
+    <label>First Name</label>
+    <input formControlName="firstName" type="text" />
+
+    <label>Last Name</label>
+    <input formControlName="lastName" type="text" />
+
+    <label>Email</label>
+    <input formControlName="email" type="email" />
+
+    <label>Role</label>
+    <select formControlName="role">
+      <option *ngFor="let r of roles" [value]="r">
+        {{ r }}
+      </option>
+    </select>
+    <label *ngIf="!user">Password</label>
+    <input *ngIf="!user" formControlName="password" type="password" placeholder="Password" />
+    <div class="buttons">
+
+      <button type="submit">
+        {{ user ? 'Update' : 'Create' }}
+      </button>
+
+      <button type="button" class="cancel" (click)="onCancel()">
+        Cancel
+      </button>
+
+    </div>
+
+  </form>
+
+</div>

@@ -1,0 +1,22 @@
+<h2>Tasks</h2>
+<button *ngIf="canManageTasks() && projectId" [routerLink]="['/tasks/create', projectId]">+ Create Task</button>
+
+<div *ngIf="loading">Loading tasks...</div>
+<div *ngIf="error" class="error">{{ error }}</div>
+<div *ngIf="!loading && tasks.length === 0">No tasks found</div>
+
+<div *ngFor="let task of tasks">
+  <h3>{{ task.title }}</h3>
+  <p>{{ task.description }}</p>
+  <p>Status: {{ task.status }} | Priority: {{ task.priority }}</p>
+  <label>
+    Status
+    <select [ngModel]="task.status" (ngModelChange)="updateStatus(task, $event)">
+      <option *ngFor="let status of statuses" [ngValue]="status.value">{{ status.label }}</option>
+    </select>
+  </label>
+  <button [routerLink]="['/tasks/details', task.id]">View</button>
+  <button *ngIf="canManageTasks()" [routerLink]="['/tasks/edit', task.id]">Edit</button>
+  <button *ngIf="canManageTasks()" (click)="delete(task.id)">Delete</button>
+  <hr />
+</div>

@@ -1,0 +1,76 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(15, 23, 42, 0.46);
+  z-index: 500;
+}
+
+.qa-modal {
+  width: min(560px, calc(100vw - 32px));
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.qa-modal header,
+.qa-modal footer,
+.status-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.qa-modal header p,
+.qa-user small {
+  color: #64748b;
+}
+
+.icon-btn {
+  padding: 8px;
+}
+
+.qa-user-list {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0;
+  max-height: 320px;
+  overflow: auto;
+}
+
+.qa-user {
+  display: grid;
+  grid-template-columns: 34px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+}
+
+.qa-user.selected {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+
+.qa-user small {
+  display: block;
+}
+
+.status-actions {
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+
+.status-actions .active {
+  background: #162033;
+  color: #fff;
+  border-color: #162033;
+}
+
+.avatar.small {
+  width: 34px;
+  height: 34px;
+}
