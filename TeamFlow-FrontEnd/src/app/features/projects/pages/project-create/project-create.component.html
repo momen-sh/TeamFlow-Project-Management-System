@@ -1,0 +1,13 @@
+<div class="page">
+
+  <app-project-form
+    [saving]="loading"
+    (save)="createProject($event)"
+    (cancel)="cancel()">
+  </app-project-form>
+
+  <p class="error" *ngIf="error">
+    {{ error }}
+  </p>
+
+</div>

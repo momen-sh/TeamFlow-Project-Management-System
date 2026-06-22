@@ -1,0 +1,42 @@
+# =========================
+# .NET Backend
+# =========================
+TeamFlow/bin/
+TeamFlow/obj/
+TeamFlow/.vs/
+TeamFlow/*.user
+TeamFlow/*.suo
+
+# appsettings (environment-specific secrets)
+TeamFlow/appsettings.Development.json
+TeamFlow/appsettings.Production.json
+TeamFlow/.env
+
+# =========================
+# Angular Frontend
+# =========================
+TeamFlow-FrontEnd/node_modules/
+TeamFlow-FrontEnd/dist/
+TeamFlow-FrontEnd/tmp/
+TeamFlow-FrontEnd/out-tsc/
+TeamFlow-FrontEnd/.angular/
+TeamFlow-FrontEnd/.angular/cache/
+TeamFlow-FrontEnd/.env
+node_modules/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/

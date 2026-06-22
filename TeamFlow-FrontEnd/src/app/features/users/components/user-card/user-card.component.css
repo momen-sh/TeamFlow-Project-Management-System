@@ -1,0 +1,73 @@
+.card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+.role {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 20px;
+  background: #eee;
+  text-transform: uppercase;
+}
+
+.role.Admin {
+  background: #e53935;
+  color: white;
+}
+
+.role.TeamLeader {
+  background: #3f51b5;
+  color: white;
+}
+
+.role.Developer {
+  background: #0ea5e9;
+  color: white;
+}
+
+.role.QA {
+  background: #16a34a;
+  color: white;
+}
+
+.email {
+  margin: 8px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #3f51b5;
+  color: white;
+}
+
+button.danger {
+  background: #e53935;
+}
+
+button:hover {
+  opacity: 0.9;
+}

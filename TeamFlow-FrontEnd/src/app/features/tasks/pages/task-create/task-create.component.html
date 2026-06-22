@@ -1,0 +1,17 @@
+<h2>Create Task</h2>
+<input [(ngModel)]="form.title" placeholder="Title" />
+<textarea [(ngModel)]="form.description" placeholder="Description"></textarea>
+<select [(ngModel)]="form.status">
+  <option [value]="0">To Do</option>
+  <option [value]="1">In Progress</option>
+  <option [value]="2">Done</option>
+</select>
+<select [(ngModel)]="form.priority">
+  <option [value]="0">Low</option>
+  <option [value]="1">Medium</option>
+  <option [value]="2">High</option>
+</select>
+<div *ngIf="error" class="error">{{ error }}</div>
+<button (click)="create()" [disabled]="loading || !form.title.trim()">
+  {{ loading ? 'Creating...' : 'Create' }}
+</button>

@@ -1,0 +1,5 @@
+<section class="task-page">
+  <h1>Create Task</h1>
+  <div *ngIf="error" class="error">{{ error }}</div>
+  <app-task-form [saving]="saving" (save)="createTask($event)" (cancel)="cancel()"></app-task-form>
+</section>

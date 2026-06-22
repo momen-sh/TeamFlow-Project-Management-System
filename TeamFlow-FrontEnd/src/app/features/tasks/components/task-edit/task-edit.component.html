@@ -1,0 +1,12 @@
+<section class="task-page">
+  <h1>Edit Task</h1>
+  <div *ngIf="loading">Loading task...</div>
+  <div *ngIf="error" class="error">{{ error }}</div>
+  <app-task-form
+    *ngIf="task"
+    [task]="task"
+    [saving]="saving"
+    (save)="updateTask($event)"
+    (cancel)="cancel()">
+  </app-task-form>
+</section>

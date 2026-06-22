@@ -1,0 +1,8 @@
+<div
+  class="app-notification"
+  *ngIf="notification$ | async as notification"
+  [class.error]="notification.type === 'error'"
+  [class.success]="notification.type === 'success'">
+  {{ notification.message }}
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,35 @@
+<div class="page">
+
+  <div class="header">
+
+    <h2>Users</h2>
+
+    <button (click)="createUser()">
+      + Create User
+    </button>
+
+  </div>
+
+  <div *ngIf="loading">Loading users...</div>
+
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+
+  <div *ngIf="!loading && users.length === 0" class="empty">
+    No users found
+  </div>
+
+  <div class="grid">
+
+    <app-user-card
+      *ngFor="let user of users"
+      [user]="user"
+      (view)="openUser($event)"
+      (edit)="editUser($event)"
+      (delete)="deleteUser($event)">
+    </app-user-card>
+
+  </div>
+
+</div>

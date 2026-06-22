@@ -1,0 +1,18 @@
+<div class="page">
+
+  <div *ngIf="loading">Loading user...</div>
+
+  <p class="error" *ngIf="error">
+    {{ error }}
+  </p>
+
+  <app-user-form
+    *ngIf="user"
+    [user]="user"
+    (save)="updateUser($event)"
+    (cancel)="cancel()">
+  </app-user-form>
+
+  <p *ngIf="saving">Saving changes...</p>
+
+</div>

@@ -1,0 +1,27 @@
+<div class="form-container">
+
+  <h2>{{ project ? 'Edit Project' : 'Create Project' }}</h2>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+
+    <label>Project Name</label>
+    <input formControlName="name" type="text" />
+
+    <label>Description</label>
+    <textarea formControlName="description"></textarea>
+
+    <div class="buttons">
+
+      <button type="submit" [disabled]="form.invalid || saving">
+        {{ saving ? 'Saving...' : (project ? 'Update' : 'Create') }}
+      </button>
+
+      <button type="button" class="cancel" (click)="onCancel()" [disabled]="saving">
+        Cancel
+      </button>
+
+    </div>
+
+  </form>
+
+</div>

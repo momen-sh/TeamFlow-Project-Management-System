@@ -1,0 +1,88 @@
+<section class="board-shell">
+  <header class="board-header">
+    <div>
+      <h1>Tasks</h1>
+      <p>All workspace tasks. Actions are enabled only where your role allows changes.</p>
+    </div>
+
+    <button *ngIf="canManageTasks()" type="button" class="primary" (click)="createTask()">
+      New Task
+    </button>
+  </header>
+
+  <div class="filters" *ngIf="filters$ | async as filters">
+    <input
+      type="search"
+      placeholder="Search tasks"
+      [value]="filters.search"
+      (input)="updateSearch($any($event.target).value)"
+    />
+
+    <select [value]="filters.priority" (change)="updatePriority($any($event.target).value)">
+      <option *ngFor="let priority of priorities" [value]="priority.value">
+        {{ priority.label }}
+      </option>
+    </select>
+
+    <select [value]="filters.projectId" (change)="updateProject($any($event.target).value)">
+      <option value="all">All projects</option>
+      <option *ngFor="let project of projects" [value]="project.id">
+        {{ project.name }}
+      </option>
+    </select>
+
+    <select [value]="filters.type" (change)="updateType($any($event.target).value)">
+      <option *ngFor="let type of types" [value]="type.value">
+        {{ type.label }}
+      </option>
+    </select>
+  </div>
+
+  <div *ngIf="loading$ | async" class="loading">
+    <span class="spinner"></span>
+    Loading tasks...
+  </div>
+
+  <div *ngIf="error" class="error">{{ error }}</div>
+
+  <div class="kanban" *ngIf="columns$ | async as columns">
+    <section class="kanban-column" *ngFor="let column of columns; trackBy: trackColumn">
+      <header>
+        <h2>{{ column.title }}</h2>
+        <span>{{ column.tasks.length }}</span>
+      </header>
+
+      <div
+        class="task-list"
+        cdkDropList
+        [id]="column.id"
+        [cdkDropListData]="column.tasks"
+        [cdkDropListConnectedTo]="connectedDropLists"
+        (cdkDropListDropped)="drop($event, column.status)"
+      >
+        <app-task-card
+          *ngFor="let task of column.tasks; trackBy: trackTask"
+          cdkDrag
+          [cdkDragDisabled]="!canMoveTask(task)"
+          [cdkDragData]="task"
+          [task]="task"
+          [projectName]="projectName(task)"
+          [assigneeName]="assigneeName(task)"
+          [canManage]="canModifyTask(task)"
+          [canDelete]="canDeleteTask(task)"
+          [canEdit]="canEditTask(task)"
+          [canSelfAssign]="canSelfAssign(task)"
+          (details)="openDetails($event)"
+          (edit)="editTask(task)"
+          (delete)="deleteTask($event)"
+          (selfAssign)="selfAssignTask(task)"
+        >
+        </app-task-card>
+
+        <div class="empty" *ngIf="column.tasks.length === 0">
+          No tasks
+        </div>
+      </div>
+    </section>
+  </div>
+</section>

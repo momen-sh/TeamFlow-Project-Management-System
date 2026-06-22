@@ -1,0 +1,210 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  color: #111827;
+  font-size: 28px;
+}
+
+header p,
+.label,
+.activity-item span,
+.empty {
+  color: #6b7280;
+}
+
+.loading,
+.error {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.dashboard-skeleton {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.dashboard-skeleton span {
+  min-height: 92px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 37%, #f3f4f6 63%);
+  background-size: 400% 100%;
+  animation: skeleton 1.2s ease-in-out infinite;
+}
+
+.dashboard-skeleton .wide {
+  grid-column: span 3;
+  min-height: 260px;
+}
+
+.loading {
+  background: #f9fafb;
+}
+
+.error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.stats-grid,
+.analytics-grid,
+.activity-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.analytics-grid,
+.activity-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+mat-card {
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.stats-grid mat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+strong {
+  color: #111827;
+  font-size: 24px;
+}
+
+.chart-card {
+  min-height: 260px;
+}
+
+.pie {
+  width: 160px;
+  height: 160px;
+  margin: 22px auto;
+  border-radius: 50%;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #374151;
+}
+
+.legend i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+  border-radius: 999px;
+  background: #60a5fa;
+}
+
+.legend .progress {
+  background: #f59e0b;
+}
+
+.legend .done {
+  background: #22c55e;
+}
+
+.legend .type-task {
+  background: #2563eb;
+}
+
+.legend .type-bug {
+  background: #ef4444;
+}
+
+.legend .type-feature {
+  background: #10b981;
+}
+
+.legend .assigned {
+  background: #7c3aed;
+}
+
+.legend .unassigned {
+  background: #94a3b8;
+}
+
+.bars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  align-items: end;
+  height: 200px;
+  margin-top: 18px;
+}
+
+.bars div {
+  display: grid;
+  gap: 8px;
+  height: 100%;
+  align-items: end;
+  text-align: center;
+  color: #4b5563;
+}
+
+.bars span {
+  min-height: 8px;
+  border-radius: 8px 8px 0 0;
+  background: #60a5fa;
+}
+
+.bars .progress {
+  background: #f59e0b;
+}
+
+.bars .done {
+  background: #22c55e;
+}
+
+.activity-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+@media (max-width: 900px) {
+  .stats-grid,
+  .analytics-grid,
+  .activity-grid,
+  .dashboard-skeleton {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-skeleton .wide {
+    grid-column: span 1;
+  }
+}
+
+@keyframes skeleton {
+  0% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}

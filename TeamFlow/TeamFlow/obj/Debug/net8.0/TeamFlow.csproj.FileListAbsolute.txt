@@ -1,0 +1,530 @@
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.csproj.AssemblyReference.cache
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.GeneratedMSBuildEditorConfig.editorconfig
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.AssemblyInfoInputs.cache
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.AssemblyInfo.cs
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.csproj.CoreCompileInputs.cache
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.MvcApplicationPartsAssemblyInfo.cs
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.MvcApplicationPartsAssemblyInfo.cache
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\appsettings.Development.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\appsettings.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.staticwebassets.endpoints.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.exe
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.deps.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.runtimeconfig.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.pdb
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Azure.Core.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Azure.Identity.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Humanizer.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.CodeDom.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Memory.Data.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\scopedcss\bundle\TeamFlow.styles.css
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\staticwebassets.build.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\staticwebassets.development.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\swae.build.ex.cache
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.csproj.Up2Date
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\refint\TeamFlow.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.pdb
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.genruntimeconfig.cache
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\ref\TeamFlow.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\AutoMapper.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\appsettings.Development.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\appsettings.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\TeamFlow.staticwebassets.endpoints.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\TeamFlow.exe
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\TeamFlow.deps.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\TeamFlow.runtimeconfig.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\TeamFlow.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\TeamFlow.pdb
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\AutoMapper.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Azure.Core.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Azure.Identity.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\BCrypt.Net-Next.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Humanizer.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.CodeAnalysis.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.CodeAnalysis.CSharp.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.CodeAnalysis.Workspaces.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.EntityFrameworkCore.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.EntityFrameworkCore.Design.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.EntityFrameworkCore.Relational.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.Extensions.DependencyModel.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.Identity.Client.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.IdentityModel.Abstractions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.IdentityModel.Logging.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.IdentityModel.Protocols.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.IdentityModel.Tokens.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.OpenApi.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.SqlServer.Server.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Microsoft.Win32.SystemEvents.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Mono.TextTemplating.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Swashbuckle.AspNetCore.Swagger.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.CodeDom.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Composition.AttributedModel.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Composition.Convention.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Composition.Hosting.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Composition.Runtime.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Composition.TypedParts.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Configuration.ConfigurationManager.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Drawing.Common.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.IdentityModel.Tokens.Jwt.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Memory.Data.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Runtime.Caching.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Security.Cryptography.ProtectedData.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Security.Permissions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\System.Windows.Extensions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\cs\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\de\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\es\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\fr\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\it\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ja\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ko\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\pl\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ru\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\tr\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\build-check\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.staticwebassets.runtime.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\appsettings.Development.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\appsettings.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\TeamFlow.staticwebassets.runtime.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\TeamFlow.staticwebassets.endpoints.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\TeamFlow.deps.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\TeamFlow.runtimeconfig.json
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\TeamFlow.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\TeamFlow.pdb
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\AutoMapper.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Azure.Core.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Azure.Identity.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\BCrypt.Net-Next.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Humanizer.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.CodeAnalysis.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.CodeAnalysis.CSharp.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.CodeAnalysis.Workspaces.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.EntityFrameworkCore.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.EntityFrameworkCore.Design.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.EntityFrameworkCore.Relational.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.Extensions.DependencyModel.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.Identity.Client.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.IdentityModel.Abstractions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.IdentityModel.Logging.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.IdentityModel.Protocols.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.IdentityModel.Tokens.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.OpenApi.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.SqlServer.Server.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Microsoft.Win32.SystemEvents.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Mono.TextTemplating.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Swashbuckle.AspNetCore.Swagger.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.CodeDom.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Composition.AttributedModel.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Composition.Convention.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Composition.Hosting.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Composition.Runtime.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Composition.TypedParts.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Configuration.ConfigurationManager.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Drawing.Common.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.IdentityModel.Tokens.Jwt.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Memory.Data.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Runtime.Caching.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Security.Cryptography.ProtectedData.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Security.Permissions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\System.Windows.Extensions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\cs\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\de\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\es\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\fr\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\it\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ja\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ko\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\pl\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ru\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\tr\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\codex-build\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\TeamFlow-Project Management System\TeamFlow\TeamFlow\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\appsettings.Development.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\appsettings.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.staticwebassets.runtime.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.staticwebassets.endpoints.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.exe
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.deps.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.runtimeconfig.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\TeamFlow.pdb
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\AutoMapper.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Azure.Core.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Azure.Identity.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Humanizer.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.CodeDom.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Memory.Data.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.csproj.AssemblyReference.cache
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.GeneratedMSBuildEditorConfig.editorconfig
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.AssemblyInfoInputs.cache
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.AssemblyInfo.cs
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.csproj.CoreCompileInputs.cache
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.MvcApplicationPartsAssemblyInfo.cs
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.MvcApplicationPartsAssemblyInfo.cache
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\scopedcss\bundle\TeamFlow.styles.css
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\staticwebassets.build.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\staticwebassets.development.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\swae.build.ex.cache
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.csproj.Up2Date
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\refint\TeamFlow.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.pdb
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\TeamFlow.genruntimeconfig.cache
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\ref\TeamFlow.dll
+D:\TeamFlow-Project-Management-System-main\TeamFlow-Project-Management-System-main\TeamFlow\TeamFlow\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
