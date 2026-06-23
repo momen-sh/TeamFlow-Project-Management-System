@@ -191,29 +191,35 @@ namespace TeamFlow.Authorization
         }
 
         protected override async Task HandleRequirementAsync(
-            AuthorizationHandlerContext context,
-            UpdateTaskStatusRequirement requirement)
+    AuthorizationHandlerContext context,
+    UpdateTaskStatusRequirement requirement)
         {
             var userId = context.User.GetUserId();
             if (!userId.HasValue)
-            {
                 return;
-            }
 
             var role = context.User.GetRole();
-            var isDeveloperOrQa =
-                _roleHierarchy.IsAtLeast(role, AppRoles.Developer); if (!isDeveloperOrQa)
+
+            // ✅ Admin bypass
+            if (role == AppRoles.Admin)
             {
+                context.Succeed(requirement);
                 return;
             }
+
+            var isDeveloperOrQa =
+                _roleHierarchy.IsAtLeast(role, AppRoles.Developer);
+
+            if (!isDeveloperOrQa)
+                return;
 
             var httpContext = _httpContextAccessor.HttpContext;
-            if (httpContext is null || !AuthorizationResourceHelpers.TryGetRouteInt(httpContext, "id", out var taskId))
-            {
+            if (httpContext is null ||
+                !AuthorizationResourceHelpers.TryGetRouteInt(httpContext, "id", out var taskId))
                 return;
-            }
 
             var task = await _taskRepository.GetByIdAsync(taskId);
+
             if (task is not null && task.AssignedUserId == userId.Value)
             {
                 context.Succeed(requirement);
